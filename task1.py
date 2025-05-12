@@ -10,7 +10,7 @@ def chatbot_response(user_input):
     elif "your name" in user_input:
         return "I'm a Akash, your friendly chatbot, here to assist you!"
     else:
-        return "I'm not sure how to respond to that. Can you rephrase?"
+        return "I'm not sure how to respond to that. Can you greet me only 'hello','how are you','your name' and 'bye' please?"
 
 # Run the chatbot in a loop
 while True:
